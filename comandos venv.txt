@@ -1,0 +1,36 @@
+//para entra na pasta do projeto //
+
+cd 'D:\arquivos iago\Curso-Web\Aulas phyton\Carros_phyton'
+cd "D:\arquivos iago\Curso-Web\Aulas phyton\Carros_phyton"
+
+// Ativar venv 
+
+ .\venv\Scripts\activate.ps1
+
+django-admin  startproject -app
+
+
+
+comandos para banco 
+
+
+python manage.py makemigrations
+
+senha do banco py 
+Guns@5814
+
+nome do  banco pycodebr
+
+
+ .\venv\Scripts\activate.ps1
+
+
+Comando De alterações 
+ 
+python manage.py makemigrations
+
+Baixa biblioteca 
+
+python manage.py makemigrations
+
+ python manage.py migrate
