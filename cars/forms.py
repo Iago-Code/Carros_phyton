@@ -1,5 +1,6 @@
 from django import forms  # type: ignore
 from cars.models import Brand, Car  # type: ignore
+from cars.models import Car  # type: ignore
 
 
 class CarForm(forms.Form):
@@ -10,6 +11,8 @@ class CarForm(forms.Form):
     plate = forms.CharField(max_length=10)
     value = forms.FloatField()
     photo = forms.ImageField()
+    
+class CarModelForm(forms.ModelForm):
 
     def save(self):
         car = Car(
@@ -23,3 +26,7 @@ class CarForm(forms.Form):
         )
         car.save()
         return car
+    class Meta: 
+        model = Car
+        fields = '__all__'
+
