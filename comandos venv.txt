@@ -34,3 +34,7 @@ Baixa biblioteca
 python manage.py makemigrations
 
  python manage.py migrate
+
+criar pasta conta 
+
+(venv) PS D:\arquivos iago\Curso-Web\Aulas phyton\Carros_phyton> python manage.py startapp accounts 
