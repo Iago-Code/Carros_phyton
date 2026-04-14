@@ -19,11 +19,12 @@ from django.urls import path # type: ignore
 from django.conf import settings # type: ignore
 from django.conf.urls.static import static # type: ignore
 from cars.views import cars_view, new_car_view # type: ignore
-from accounts.views import register_view # type: ignore
+from accounts.views import register_view, login_view # type: ignore
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('register/', register_view, name='register'),
+    path('login/', login_view, name='login'),
     path('cars/', cars_view, name='cars_list'),
     path('new_car/', new_car_view, name='new_car')
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
