@@ -38,3 +38,6 @@ python manage.py makemigrations
 criar pasta conta 
 
 (venv) PS D:\arquivos iago\Curso-Web\Aulas phyton\Carros_phyton> python manage.py startapp accounts 
+
+
+
