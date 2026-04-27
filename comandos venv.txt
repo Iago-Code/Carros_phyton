@@ -16,8 +16,7 @@ comandos para banco
 
 python manage.py makemigrations
 
-senha do banco py 
-Guns@5814
+
 
 nome do  banco pycodebr
 
